@@ -1,9 +1,4 @@
-class test{
-	constructor(){
-		console.log("test");
-	}
+import angular from '../node_modules/angular/angular';
+angular.module('testBower', [
 
-	test(){
-		return 'tree';
-	}
-}
+  ])
